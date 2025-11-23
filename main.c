@@ -94,9 +94,9 @@ int main() {
     printImageSample(exampleInt, exampleFloat, exHeight, exWidth, 4);
     
     if (checkCorrectness(exampleInt, exampleFloat, exHeight * exWidth)) {
-        printf("\n✓ Correctness check PASSED for example data!\n");
+        printf("\nCorrectness check PASSED for example data!\n");
     } else {
-        printf("\n✗ Correctness check FAILED for example data!\n");
+        printf("\nCorrectness check FAILED for example data!\n");
     }
     free(exampleFloat);
     
@@ -133,8 +133,6 @@ int main() {
         
         // Print results
         printf("Average execution time: %.6f seconds\n", avgTime);
-        printf("Average time per pixel: %.9f seconds\n", avgTime / size); // Not required, can be excluded i think
-        printf("Throughput: %.2f million pixels/second\n", (size / avgTime) / 1000000.0); // For Checking, can be excluded
         printf("Correctness check: %s\n", correct ? "PASSED" : "FAILED");  
         
         // Print sample for verification
