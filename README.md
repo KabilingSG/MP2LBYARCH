@@ -15,6 +15,7 @@ Converts grayscale images from 8-bit integer (0â€“255) to normalized float (0.0â
 # Files
 - `main.c` - C driver program
 - `converter.asm` - x86-64 assembly implementation
+- `img.png` - Output Screenshot
 # Results
 ![alt text](image.png)
 
