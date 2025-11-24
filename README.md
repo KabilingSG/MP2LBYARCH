@@ -23,3 +23,5 @@ Assembly as a language seems to sacrifice readability for efficiency.
 This is a key advantage it has over higher level languages, as the speed difference becomes more significant for larger datasets.
 
 # Video Explanation
+This is our video explanation where we discuss our source code, how we compiled the programs, and the execution of the program itself
+https://www.youtube.com/watch?v=MYhIsex4aBI
