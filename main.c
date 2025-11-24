@@ -4,7 +4,7 @@
 #include <stdint.h>
 #include <windows.h>
 
-// External assembly function (you'll provide this next)
+// External assembly function
 extern void imgCvtGrayIntToDouble(int height, int width, uint8_t* intImg, double* floatImg);
 
 // Pure C implementation for comparison
