@@ -12,7 +12,9 @@ Converts grayscale images from 8-bit integer (0â€“255) to normalized float (0.0â
 - **C**:        Handles I/O, memory, timing, and correctness checking.
 - **Assembly**: Handles conversion using cvtsi2sd, divsd, movsd.
 - **Formula**:  float = uint8 / 255.0
-
+# Files
+- `main.c` - C driver program
+- `converter.asm` - x86-64 assembly implementation
 # Results
 ![alt text](image.png)
 
