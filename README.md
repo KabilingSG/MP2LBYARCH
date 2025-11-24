@@ -1,6 +1,7 @@
 # MP2LBYARCH
 ## S18A GROUP 7
-### Lim, Lance Xavier T, Kabiling, Simon Gabriel M.
+### Lim, Lance Xavier T. 
+### Kabiling, Simon Gabriel M.
 Grayscale image converter (uint8 to double) using x86-64 assembly with scalar SIMD instructions. Machine Project for LBYARCH.
 
 Converts grayscale images from 8-bit integer (0–255) to normalized float (0.0–1.0)
